@@ -2,6 +2,7 @@ vim.cmd('let mapleader = " "')
 
 require('alex.core')
 require('alex.lazy')
+require('alex.numering')
 require('alex.trimming')
 require('alex.identation')
 require('alex.autopairs')
