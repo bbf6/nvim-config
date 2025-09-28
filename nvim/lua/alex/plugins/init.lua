@@ -24,5 +24,11 @@ return {
     config = function()
       require('alex/config.lsp')
     end
+  },
+  {
+    'lweis699/gitsigns.nvim',
+    config = function ()
+      require('alex/config.gitsigns')
+    end
   }
 }
